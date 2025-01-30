@@ -19,10 +19,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./src/template.html",
     }),
-    new ESLintPlugin({
-        extensions: ['js', 'jsx', 'ts', 'tsx'], // Specify the file extensions you want to lint
-        emitWarning: true, // Emit warnings instead of errors for linting issues
-      }),
   ],
   module: {
     rules: [
